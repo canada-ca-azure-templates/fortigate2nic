@@ -251,11 +251,11 @@ FVDPhtn7YBw=
 
 ## History
 
-| Date     | Change                                          |
-| -------- | ----------------------------------------------- |
-| 20181217 | 1st version                                     |
-| 20190205 | Cleanup template folder                         |
-| 20190328 | Refactor template to support keyvault passwords |
-| 20190429 | Update documentation                            |
-| 20190430 | Update documentation                            |
-| 20190501 | Update documentation and yml pipeline           |
+| Date     | Release                                                                              | Change                                                      |
+| -------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| 20181217 |                                                                                      | 1st version                                                 |
+| 20190205 |                                                                                      | Cleanup template folder                                     |
+| 20190328 |                                                                                      | Refactor template to support keyvault passwords             |
+| 20190429 |                                                                                      | Update documentation                                        |
+| 20190430 |                                                                                      | Update documentation                                        |
+| 20190501 | [20190501](https://github.com/canada-ca-azure-templates/fortigate2nic/tree/20190501) | Updated documentation and add remaining type of DNS records |
