@@ -24,8 +24,6 @@
                 "vnetResourceGroup": "PwS2-validate-fortigate2NIC-RG",
                 "Subnet1Name": "outside",
                 "Subnet2Name": "inside",
-                "Subnet3Name": "three",
-                "Subnet4Name": "four",
                 "FirewallConfig": "Y29uZmlnIHN5c3RlbSBnbG9iYWwKICAgICBzZXQgYWRtaW4tc3BvcnQgODQ0MwplbmQK"
             }
         }
