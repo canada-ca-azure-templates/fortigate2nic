@@ -97,7 +97,7 @@ The following security controls can be met through configuration of this templat
 | virtualNetworkRG            | string | Yes      | Name of the Resource Group containing the VNET defined above                                                                                                    |
 | Subnet1Name                 | string | Yes      | Name of the external subnet                                                                                                                                     |
 | Subnet2Name                 | string | Yes      | Name of the internal subnet                                                                                                                                     |
-| FirewallConfig              | string | Yes      | multipart/mixed Base64 encoded string of [Firewall Config and License](#firewall-config-and-license). Leave empty ("") is no firewall configuration is required |
+| FirewallConfig              | string | Yes      | Base64 encoded multipart/mixed string of [Firewall Config and License](#firewall-config-and-license). Leave empty ("") if no firewall configuration is required |
 
 ### Keyvault Object
 
