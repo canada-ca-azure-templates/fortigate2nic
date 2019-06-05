@@ -5,27 +5,27 @@
         "deploymentSubArray": {
             "value": [
                 {
-                    "name": "resourcegroups-ciscoasav2nic",
+                    "name": "resourcegroups-fortigate2nic",
                     "location": "canadacentral",
                     "templateLink": "https://raw.githubusercontent.com/canada-ca-azure-templates/resourcegroups/20190514/template/azuredeploysub.json",
                     "parametersFile": "dependancy-resourcegroups-canadacentral.parameters.json"
                 },
                 {
-                    "name": "keyvault-infra",
+                    "name": "keyvault-infra-fortigate2nic",
                     "location": "canadacentral",
                     "templateLink": "https://raw.githubusercontent.com/canada-ca-azure-templates/keyvaults/20190514/template/azuredeploysub.json",
                     "parametersFile": "dependancy-keyvaults.parameters.json",
                     "dependsOn": [
-                        "resourcegroups-ciscoasav2nic"
+                        "resourcegroups-fortigate2nic"
                     ]
                 },
                 {
-                    "name": "vnet-subnet",
+                    "name": "vnet-subnet-fortigate2nic",
                     "location": "canadacentral",
                     "templateLink": "https://raw.githubusercontent.com/canada-ca-azure-templates/vnet-subnet/20190516/template/azuredeploysub.json",
                     "parametersFile": "dependancy-vnet-subnet.parameters.json",
                     "dependsOn": [
-                        "resourcegroups-ciscoasav2nic"
+                        "resourcegroups-fortigate2nic"
                     ]
                 }
             ]
